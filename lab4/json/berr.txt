@@ -1,0 +1,10 @@
+import re
+txt = "My name is Magzhan"
+
+
+x = re.findall("[A-Z]", txt)
+
+print(x)
+
+
+  
